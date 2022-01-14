@@ -1,0 +1,34 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.navbar{
+	background: transparent;
+}
+ul li a{
+   text-transform: capitalize;
+   text-decoration: none;
+   color: white;
+   font-size: 20px;
+   font-weight: 500;
+}
+ul li a:hover{
+  color: red!important;
+  background:greenyellow;
+  display:inline-block;
+  border: 1px ;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  word-spacing: 2px;
+  transition: 0.5s;
+}
+/*/////footer/////*/
+.footer{
+      height: 40px;
+       line-height: 40px;
+       font-size: 20px;
+       font-weight: 500;
+       margin-top: auto;
+   }
